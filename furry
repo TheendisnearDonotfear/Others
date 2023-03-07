@@ -37,7 +37,10 @@ local entity = Spawner.createEntity({
 ---====== Debug ======---
 
 entity.Debug.OnEntitySpawned = function()
-game.Workspace["Furry owo :3"].RushNew.Attachments.ParticleEmitter.Texture = ""
+local SelfModules = {
+    Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))(),
+}
+game.Workspace["Furry owo :3"].RushNew.Attachments.ParticleEmitter.Texture = LoadCustomAsset("https://github.com/TheendisnearDonotfear/Others/blob/main/mauzymice.png?raw=true")
 end
 
 entity.Debug.OnEntityDespawned = function()
