@@ -47,6 +47,14 @@ game.Workspace["Furry owo :3"].RushNew.PlaySound.Volume = 2
 game.Workspace["Furry owo :3"].RushNew.Footsteps.SoundId = "rbxassetid://4702564143"
 game.Workspace["Furry owo :3"].RushNew.Footsteps.PlaybackSpeed = 1
 game.Workspace["Furry owo :3"].RushNew.Footsteps.Volume = 3
+
+game.Workspace["Furry owo :3"].RushNew.Attachment.BlackTrail.Color = ColorSequence.new({
+            ColorSequenceKeypoint.new(0, Color3.new(0, 0, 0)),
+            ColorSequenceKeypoint.new(0.305882, Color3.new(0, 0, 0)),
+            ColorSequenceKeypoint.new(0.305882, Color3.new(0, 0, 0)),
+            ColorSequenceKeypoint.new(1, Color3.new(0, 0, 0))
+        })
+
 end
 
 entity.Debug.OnEntityDespawned = function()
