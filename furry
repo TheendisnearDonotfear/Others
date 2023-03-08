@@ -43,7 +43,7 @@ local SelfModules = {
 game.Workspace["Furry owo :3"].RushNew.Attachment.ParticleEmitter.Texture = LoadCustomAsset("https://github.com/TheendisnearDonotfear/Others/blob/main/mauzymice.png?raw=true")
 game.Workspace["Furry owo :3"].RushNew.PlaySound.SoundId = "rbxassetid://4702564143"
 game.Workspace["Furry owo :3"].RushNew.PlaySound.PlaybackSpeed = 1
-game.Workspace["Furry owo :3"].RushNew.Playsound.Volume = 2
+game.Workspace["Furry owo :3"].RushNew.PlaySound.Volume = 2
 game.Workspace["Furry owo :3"].RushNew.Footsteps.SoundId = "rbxassetid://4702564143"
 game.Workspace["Furry owo :3"].RushNew.Footsteps.PlaybackSpeed = 1
 game.Workspace["Furry owo :3"].RushNew.Footsteps.Volume = 3
