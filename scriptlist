@@ -1,0 +1,10 @@
+local load = {}
+local scriptslist = {
+doorssex = game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Meme/DoorSexMod.lua"),
+}
+load.script = function(scriptr)
+if table.find(scriptr, scriptslist) then
+loadstring(scriptr)()
+end
+
+return load
