@@ -4,4 +4,6 @@ elseif _G.RTELoadScript == "sex" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Meme/DoorSexMod.lua",true))()
 elseif _G.RTELoadScript == "printest" then
 print("test")
+else
+print('')
 end
