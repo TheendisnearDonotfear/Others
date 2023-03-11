@@ -1,10 +1,7 @@
-local loada = {}
-local scriptslist = {
-doorssex = game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Meme/DoorSexMod.lua"),
-}
-loada.script = function(scriptr)
-if table.find(scriptr, scriptslist) then
-loadstring(scriptr)()
+if _G.RTELoadScript == "impossible" then
+print("impossible mode script loaded")
+elseif _G.RTELoadScript == "sex" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Meme/DoorSexMod.lua",true))()
+elseif _G.RTELoadScript == "printest" then
+print("test")
 end
-
-return loada
